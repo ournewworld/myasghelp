@@ -1,1 +1,72 @@
-.header-student-post-form-wrapper {background:#fff;}
+.header-student-post-form-wrapper{
+	background: url(../img/home-page-new-banner.jpg) center 0 no-repeat #f7eac2;
+	min-height: 521px;
+	background-size: cover;
+}
+
+.main-banner .form-container{
+	background-color: rgba(255,255,255,.8);
+    border: 1px solid #aaa;
+    padding: 20px 25px 10px;
+    margin-top: 20px;
+    border-bottom: none;
+    color: #333;
+}
+
+.main-banner .form-container h1{
+	font-size:30px;
+	margin-bottom:0;
+	font-weight:bold;
+}
+
+.main-banner .form-container h2{
+	font-size:16px;
+    font-style: italic;
+	color: #29870b;
+	margin-bottom:0;
+}
+
+.main-banner .form-container .form-item-no-of-pages input{ border-radius:0;}
+.main-banner .form-container .form-item-no-of-pages .input-group-btn .btn{ padding-top:6px; padding-bottom:6px;}
+.main-banner .form-container .date-padding{ padding:0;}
+.main-banner .form-container .form-item-date{ margin:0;}
+.main-banner .container-inline-date .form-item-date-date{float:left; width:50%; padding-right:10px;}
+.main-banner .container-inline-date .form-item-date-time{float:left; width:50%; padding-left:10px;}
+.main-banner .container-inline-date .form-item-date-date input{width:100%;}
+.main-banner .container-inline-date .form-item-date-time input{width:100%;}
+.main-banner .form-item-date-date .description, .main-banner .form-item-date-time .description{display:none;}
+.main-banner .form-container .form-actions{padding:10px 0px 0px}
+.main-banner .form-container .form-actions input.form-submit{
+	border-radius: 0;
+	color: #fff;
+	background-color: #2e990d;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+	background-image: -webkit-linear-gradient(top,#2e990d 0%,#1d6108 100%);
+	background-image: -o-linear-gradient(top,#2e990d 0%,#1d6108 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#2e990d),to(#1d6108));
+	background-image: linear-gradient(to bottom,#2e990d 0%,#1d6108 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2e990d',endColorstr='#ff1d6108',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	background-repeat: repeat-x;
+	border-color: #1a5707;
+}
+
+.main-banner-content{
+	margin:20px 0px;
+	color:#fff;
+	font-size:16px;
+ }
+ 
+.main-banner-content ul li{
+ 	margin-top:10px;
+}
+
+.main-banner-content ul li i {
+    margin-right: 7px;
+    float: left;
+    width: 18px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
