@@ -114,11 +114,6 @@ $phone_number = theme_get_setting('phone_number');
 		</div>
 	</div>
 </div>
-<div class="header-student-post-form-wrapper">
-	<div class="container">
-		<?php print assignment_help_get_student_post_form(); ?>
-	</div>
-</div>
 <?php endif;?>
 </div>
 
