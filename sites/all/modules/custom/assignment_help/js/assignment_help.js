@@ -4,11 +4,11 @@ $(document).ready(function () {
 	$('#noofpages').bootstrapNumber({
 		upClass: 'success',
 		downClass: 'danger'
-	});
+	})
 });
 
 $(window).scroll(function(){
-	if ($(window).scrollTop() >= 150) {
+	if ($(window).scrollTop() >= 130) {
 	   $('.header-nav').addClass('fixed-header');
 	}
 	else {
@@ -16,7 +16,7 @@ $(window).scroll(function(){
 	}
 });
 $(window).scroll(function(){
-	if ($(window).scrollTop() >= 150) {
+	if ($(window).scrollTop() >= 200) {
 	   $('.header-student-post-form-wrapper').fadeOut('2000');
 	}
 	else {

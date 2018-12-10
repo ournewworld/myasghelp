@@ -3,6 +3,9 @@ $contact = theme_get_setting('contact_us');
 $contact_link = theme_get_setting('contact_us_link');
 $phone_number = theme_get_setting('phone_number');
 ?>
+
+ <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
+ 
 <header id="header" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": false, "stickyStartAt": 147, "stickySetTop": "-147px", "stickyChangeLogo": false}'>
 <div class="header-body">
 <div class="header-top">
