@@ -10717,13 +10717,6 @@ ul, li{
 	list-style-type:none;
 }
 
-.fixed-header{
-	position: fixed !important;
-	top: 0px;
-	width: 100%;
-}
-
-
 .pb-0{ padding-bottom: 0 !important;}
 .pt-5, .py-5 {
     padding-top: 3rem!important;
@@ -10736,5 +10729,16 @@ ul, li{
 }
 #footer{
 	margin-top:0 !important;
+}
+
+.header-hide{
+	display: none;
+}
+
+.fixed-header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%; 
 }
 

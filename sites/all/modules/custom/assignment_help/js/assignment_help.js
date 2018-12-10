@@ -8,18 +8,12 @@ $(document).ready(function () {
 });
 
 $(window).scroll(function(){
-	if ($(window).scrollTop() >= 130) {
-	   $('.header-nav').addClass('fixed-header');
+	if ($(window).scrollTop() >= 150) {
+		 $('.header-nav').addClass('fixed-header');
+		 $('.header-student-post-form-wrapper').addClass('header-hide');
 	}
 	else {
-	   $('.header-nav').removeClass('fixed-header');
-	}
-});
-$(window).scroll(function(){
-	if ($(window).scrollTop() >= 200) {
-	   $('.header-student-post-form-wrapper').fadeOut('2000');
-	}
-	else {
-	   $('.header-student-post-form-wrapper').fadeIn('2000');
+		 $('.header-nav').removeClass('fixed-header');
+		 $('.header-student-post-form-wrapper').removeClass('header-hide');
 	}
 });
