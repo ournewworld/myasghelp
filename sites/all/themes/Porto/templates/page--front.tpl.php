@@ -116,7 +116,7 @@
 <div class="content-wrap pb-0">
     <div class="container clearfix">
         <div class="row">
-            <div class="divcenter center clearfix">
+            <div class="divcenter center clearfix mt-5">
                 <h2 class="mb-0">HOW ASSIGNMENT HELP WORKS</h2>
             </div>
 
@@ -128,7 +128,7 @@
                         <a href="#"><i class="fa fa-database"></i></a>
                     </div>
                     <h3>SUBMIT YOUR ASSIGNMENT</h3>
-                    <p>Simply visit myassignmenthelp.com and fill up the assignment submission form. Mention
+                    <p>Simply visit AnyAssignmenthelp.com and fill up the assignment submission form. Mention
                         the assignment requirements and upload the files. You can immediately chat with 24 x 7
                         assignment expert and get the best price.</p>
                 </div>
@@ -154,17 +154,16 @@
                     </div>
                     <h3>GET ASSIGNMENT SOLUTION</h3>
                     <p>Your high quality and well referenced assignment will be delivered straight in your
-                        MyAssignmenthelp.com’s student account, long before the agreed deadline.</p>
+                        AnyAssignmenthelp.com’s student account, long before the agreed deadline.</p>
                 </div>
             </div>
 
-            <div class="col-lg-12 text-center mt-4">
+            <div class="col-lg-12 text-center mt-5">
                 <a href="#" class="button button-3d button-large">Order Now</a>
             </div>
 
-            <div class="line mb-0"></div>
-
             <div class="clear"></div>
+            <hr>
         </div>
     </div>
 
@@ -181,7 +180,7 @@
                 <div>
                     <i class="fa fa-file-text"></i>
                     <h3 class="uppercase" style="font-weight: 600;">ONLINE ASSIGNMENT HELP</h3>
-                    <p style="line-height: 1.8;">MyAssignmenthelp.com is a one-stop solution for all urgent
+                    <p style="line-height: 1.8;">AnyAssignmenthelp.com is a one-stop solution for all urgent
                         assignment help needs.</p>
                     <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read
                         More</a>
@@ -192,7 +191,7 @@
                 <div>
                     <i class="fa fa-pencil"></i>
                     <h3 class="uppercase" style="font-weight: 600;">CUSTOM ESSAY WRITING HELP</h3>
-                    <p style="line-height: 1.8;">As an essay help service provider, MyAssignmenthelp.com not
+                    <p style="line-height: 1.8;">As an essay help service provider, AnyAssignmenthelp.com not
                         only aids students to achieve academic excellence by providing custom writing help but
                         also acquire useful knowledge from the subject experts. </p>
                     <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read
@@ -204,7 +203,7 @@
                 <div>
                     <i class="fa fa-book"></i>
                     <h3 class="uppercase" style="font-weight: 600;">Dissertation Writing Help</h3>
-                    <p style="line-height: 1.8;">Experts, at MyAssignmenthelp.com, are capable of delivering
+                    <p style="line-height: 1.8;">Experts, at AnyAssignmenthelp.com, are capable of delivering
                         dissertations utilizing both primary and secondary research.</p>
                     <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read
                         More</a>
@@ -215,7 +214,7 @@
                 <div>
                     <i class="fa fa-cogs"></i>
                     <h3 class="uppercase" style="font-weight: 600;">All Writing Services</h3>
-                    <p style="line-height: 1.8;">We at MyAssignmenthelp offer all types of online academic
+                    <p style="line-height: 1.8;">We at AnyAssignmenthelp offer all types of online academic
                         services, be it homework help, coursework help, case study help, thesis/research paper
                         writing help and online exam help.</p>
                     <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read
@@ -257,9 +256,9 @@
                 </div>
 
                 <div class="col-lg-12 heading-block center">
-                    <h2>Hire MyAssignmenthelp.Com's Expert Assignment <br /> Writer And See The Difference In
+                    <h2>Hire AnyAssignmenthelp.Com's Expert Assignment <br /> Writer And See The Difference In
                         Your Grade</h2>
-                    <div class="divcenter">MyAssignmenthelp.com being one of the most active assignment help
+                    <div class="divcenter">AnyAssignmenthelp.com being one of the most active assignment help
                         websites has a pool of over 4500+ assignment experts from Australia, UK and US.<br />They
                         are highly qualified and skilled professional writers who have vast experience in
                         writing assignments, dissertations, essays, research papers, term papers etc. Each
@@ -275,17 +274,17 @@
         </div>
     </div>
 
-    <div class="container pt-5">
+    <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col-lg-5  nobottommargin">
                 <a href="#">
-                    <img src="img/about.jpg" alt="Image">
+                    <img src="http://localhost/myasghelp/sites/all/themes/Porto/img/about.jpg" alt="Image">
                 </a>
             </div>
             <div class="col-lg-7  nobottommargin col_last">
-                <h2>WHY MYASSIGNMENTHELP.COM?</h2>
+                <h2>WHY AnyAssignmenthelp.COM?</h2>
 
-                <p>MyAssignmenthelp.com is well aware of the concerns that students are normally plagued with
+                <p class="pb-0">AnyAssignmenthelp.com is well aware of the concerns that students are normally plagued with
                     when it comes to preparing their academic paper. Our assignment experts know that you
                     encounter that lingering sense of fear when it comes to preparing your assignments. No
                     matter how hard you try to enjoy the company of your loved ones, the dread of the impending
@@ -303,7 +302,7 @@
         </div>
     </div>
 
-    <div class="grey-back pt-5 pt-5">
+    <div class="grey-back pt-5 pb-5">
 
         <div class="container ">
             <h2 class="text-center">ASSIGNMENT HELP FEATURES</h2>
@@ -333,8 +332,8 @@
                             our assignment writing services any time via phone, email or live chat.</p>
                     </div>
                 </div>
-
-                <div class="line"></div>
+                <div class="clearfix"></div>
+                <hr>
 
                 <div class="col-lg-6">
                     <div class="feature-box fbox-small fbox-plain fadeIn animated" data-animate="fadeIn">
@@ -364,8 +363,8 @@
                             </p>
                     </div>
                 </div>
-
-                <div class="line"></div>
+                <div class="clearfix"></div>
+                <hr>
 
 
                 <div class="col-lg-6">
