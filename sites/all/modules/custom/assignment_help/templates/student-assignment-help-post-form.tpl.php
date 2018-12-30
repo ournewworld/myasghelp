@@ -11,7 +11,8 @@
         <div class="col-sm-6">
             <?php print drupal_render($form['subject']); ?>
         </div>
-        <div class="col-sm-6">
+        <div class="clearfix"></div>
+        <div class="col-sm-6 noPages">
             <?php print drupal_render($form['no_of_pages']); ?>
         </div>
         <div class="col-sm-6">

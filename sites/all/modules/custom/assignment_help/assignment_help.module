@@ -46,8 +46,10 @@ function student_assignment_help_post_form($form,$form_state)
     '#prefix' => '<div class="col1">',
     '#suffix' => '</div>',
     '#required' => true,
-    '#title' => t('Choose your assignment deadline'),
   );
+
+  //'#title' => t('Choose your assignment deadline'),
+
 
   $form['submit'] = array(
     '#type' => 'submit',

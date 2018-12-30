@@ -25,7 +25,6 @@
 	</div>
 </div>
 <?php if($page['before_content']):?>
-    
     <?php print render($page['before_content']);?>
 <?php endif;?>
 
@@ -282,7 +281,7 @@
                 </a>
             </div>
             <div class="col-lg-7  nobottommargin col_last">
-                <h2>WHY AnyAssignmenthelp.COM?</h2>
+                <h2 class="text-left">WHY AnyAssignmenthelp.COM?</h2>
 
                 <p class="pb-0">AnyAssignmenthelp.com is well aware of the concerns that students are normally plagued with
                     when it comes to preparing their academic paper. Our assignment experts know that you
