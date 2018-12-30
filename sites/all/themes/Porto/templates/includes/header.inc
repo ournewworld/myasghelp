@@ -2,6 +2,11 @@
 $contact = theme_get_setting('contact_us');
 $contact_link = theme_get_setting('contact_us_link');
 $phone_number = theme_get_setting('phone_number');
+	ctools_include('ajax');
+	ctools_include('modal');
+	ctools_modal_add_js();	
+$order_now = ctools_modal_text_button(t('Order Now'), 'assignment-help/order-now', t('Order Now'),'ctools-modal-modal-popup-small btn btn-success btn');
+
 ?>
 
  <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
@@ -58,8 +63,11 @@ $phone_number = theme_get_setting('phone_number');
             <div class="row">
                 <div class="cart-area">
                     <div class="custom-block">
+                        <span><?php print $order_now;?></span>
+                         <span class="split"></span>
                         <?php if(isset($phone_number)):?>
                         <i class="fa fa-phone"></i>
+                        
                         <span><?php print $phone_number;?></span>
                         <?php endif;?>
                         <?php if(isset($contact)):?>
@@ -67,40 +75,40 @@ $phone_number = theme_get_setting('phone_number');
                         <a href="<?php print $base_url.'/'.$contact_link;?>"><?php print $contact;?></a>
                         <?php endif;?>
                     </div>
-                    <?php if($page['header_cart']):
-                        $quantity = 0;
-						$order = commerce_cart_order_load($user->uid);
-                        if ($order) {
-                            $wrapper = entity_metadata_wrapper('commerce_order', $order);
-                            $line_items = $wrapper->commerce_line_items;
-                            $quantity = commerce_line_items_quantity($line_items, commerce_product_line_item_types());
-                        }
+                    <?php // if($page['header_cart']):
+//                        $quantity = 0;
+//						$order = commerce_cart_order_load($user->uid);
+//                        if ($order) {
+//                            $wrapper = entity_metadata_wrapper('commerce_order', $order);
+//                            $line_items = $wrapper->commerce_line_items;
+//                            $quantity = commerce_line_items_quantity($line_items, commerce_product_line_item_types());
+//                        }
                         ?>
-                    <div class="cart-dropdown">
+<!--                    <div class="cart-dropdown">
                         <a href="#" class="cart-dropdown-icon">
                             <i class="minicart-icon"></i>
                             <span class="cart-info">
-                                <span class="cart-qty"><?php print $quantity;?></span>
+                                <span class="cart-qty"><?php // print $quantity;?></span>
                             </span>
                         </a>
                         <div class="cart-dropdownmenu right">
                             <div class="dropdownmenu-wrapper">
                                 <div class="cart-products">
-                                    <?php print render($page['header_cart']);?>
+                                    <?php // print render($page['header_cart']);?>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <?php endif;?>
+                    </div>-->
+                    <?php // endif;?>
                 </div>
-                <?php if (isset($page['header_search'])) : ?>
-                <div class="header-search">
-                    <a href="#" class="search-toggle"><i class="fa fa-search"></i></a>
-                    <div class="header-search-wrapper">
-                        <?php print render($page['header_search']); ?>
-                    </div>
-                </div>
-                <?php endif; ?>
+                <?php // if (isset($page['header_search'])) : ?>
+                <!--<div class="header-search">-->
+                    <!--<a href="#" class="search-toggle"><i class="fa fa-search"></i></a>-->
+                    <!--<div class="header-search-wrapper">-->
+                        <?php // print render($page['header_search']); ?>
+                    <!--</div>-->
+                <!--</div>-->
+                <?php // endif; ?>
 
                 <a href="#" class="mmenu-toggle-btn" title="Toggle menu">
                     <i class="fa fa-bars"></i>

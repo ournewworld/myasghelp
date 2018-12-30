@@ -74,4 +74,17 @@ function assignment_help_theme()
   return $themes;
 }
 
+function assignment_help_menu(){
+    $items ['assignment-help/order-now'] = array(
+      'page callback' => 'assignment_help_order_now',
+      'access callback' => true,
+      'delivery callback' => 'ajax_deliver',
+      'theme callback' => 'ajax_base_page_theme',
+      'type' => MENU_CALLBACK,
+      'file' => 'include/assignment_help_order_now.inc'
+  );
+    
+    return $items;
+}
+
 
