@@ -53,7 +53,7 @@ $order_now = ctools_modal_text_button(t('Order Now'), 'assignment-help/order-now
         <div class="header-column">
             <div class="header-logo">
                 <a href="<?php print $front_page; ?>">
-                    <img alt="Porto" width="111" height="51" src="<?php print $logo; ?>">
+                    <img alt="Porto" width="" height="51" src="<?php print $logo; ?>">
                 </a>
             </div>
         </div>
