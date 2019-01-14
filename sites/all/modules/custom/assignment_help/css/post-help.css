@@ -7,16 +7,17 @@
 .main-banner .form-container {
   background-color: rgba(255, 255, 255, .8);
   border: 1px solid #aaa;
-  padding: 20px 25px 10px;
+  padding: 20px 20px 10px;
   margin-top: 20px;
   border-bottom: none;
   color: #333;
+  overflow: hidden;
 }
 
 .main-banner .form-container h1 {
   font-size: 30px;
-  margin-bottom: 0;
-  font-weight: bold;
+    margin-bottom: 0;
+    font-weight: 600 !important;
 }
 
 .main-banner .form-container h2 {
@@ -24,6 +25,7 @@
   font-style: italic;
   color: #29870b;
   margin-bottom: 0;
+  font-weight: 600 !important;
 }
 
 .main-banner .form-container .form-item-no-of-pages input {
@@ -87,6 +89,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   background-repeat: repeat-x;
   border-color: #1a5707;
+  text-transform: uppercase;
 }
 
 .main-banner-content {
@@ -240,10 +243,9 @@ h4,
 h5,
 h6 {
   color: #444;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   line-height: 1.5;
   margin: 0 0 30px 0;
-  font-family: 'Raleway', sans-serif !important;
 }
 
 h5,
@@ -282,6 +284,10 @@ h4 {
 h5,
 h6 {
   font-weight: bold;
+}
+
+.h5 {
+  font-size: 16px !important;
 }
 
 h1>span:not(.nocolor):not(.badge),
@@ -4258,7 +4264,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
   font-size: 14px;
   height: 40px;
   line-height: 40px;
-  background-color: #0083c4;
+  background-color: #ff8b00;
   color: #FFF;
   font-weight: 700;
   text-transform: uppercase;
@@ -4485,7 +4491,7 @@ body:not(.device-touch) .button {
 }
 
 .button.button-3d:hover {
-  background-color: #0083c4 !important;
+  background-color: #e77e00 !important;
   opacity: 0.9;
 }
 
@@ -5587,7 +5593,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-plain .fbox-icon img {
   border: none !important;
   background-color: transparent !important;
-  color: #0083c4;
+  color: #ff8b00;
   border-radius: 0;
 }
 
@@ -5618,9 +5624,10 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .feature-box.fbox-plain.fbox-small h3 {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 26px;
   margin-bottom: 10px;
+  font-weight: 600 !important;
 }
 
 .feature-box.fbox-plain.fbox-small p {
@@ -8985,7 +8992,7 @@ body:not(.device-touch) .team-overlay {
   margin: 20px auto 25px auto;
   content: '';
   width: 15%;
-  border-top: 2px solid #444;
+  border-top: 2px solid #ff8b00;
   opacity: 0.9;
 }
 
@@ -10205,7 +10212,7 @@ input[type=checkbox]:not(:checked)+label.error {
   display: block;
   margin-top: 30px;
   width: 40px;
-  border-top: 2px solid #444;
+  border-top: 2px solid #ff8b00;
   margin: 20px auto 0;
 }
 
@@ -10214,7 +10221,7 @@ h2.text-left:after {
   display: block;
   margin-top: 30px;
   width: 40px;
-  border-top: 2px solid #444;
+  border-top: 2px solid #ff8b00;
   margin: 20px 0 20px;
 }
 

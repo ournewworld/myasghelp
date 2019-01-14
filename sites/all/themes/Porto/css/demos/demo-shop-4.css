@@ -1317,7 +1317,7 @@ h2.word-rotator-title .word-rotate {
 #header .header-nav-main nav>ul>li.dropdown-full-color.dropdown-primary:hover>a,
 #header .header-nav-main nav>ul>li.dropdown-full-color.dropdown-primary.open>a,
 #header .header-nav-main nav>ul>li.dropdown-full-color.dropdown-primary.active>a {
-  color: #99ddff !important;
+  color: #99ddff;
   background-color: transparent !important;
 }
 
@@ -1464,6 +1464,10 @@ h2.word-rotator-title .word-rotate {
 
 #mainNav .dropdown-menu li .tip {
   margin-top: -2px;
+}
+
+#mainNav li a.active-trail{
+  color: #fff !important;
 }
 
 .tip:before {

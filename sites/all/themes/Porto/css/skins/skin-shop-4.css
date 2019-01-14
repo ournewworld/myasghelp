@@ -374,9 +374,12 @@ html .label-light {
 
 html .btn-primary {
 	color: #ffffff;
-	background-color: #0088cc;
-	border-color: #0088cc #0088cc #006699;
+    background-color: #ff8b00;
+	border-color: #ffac4a;
+	margin-right: 5px;
 }
+
+.ajax-processed{ margin-top: 35px;}
 
 html .btn-primary:hover {
 	border-color: #0099e6 #0099e6 #0077b3;
@@ -2909,7 +2912,7 @@ html[dir="rtl"] #header .tip.skin:before {
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown .dropdown-menu {
-		border-top-color: #0088cc;
+		border-top-color: #ff8b00;
 	}
 
 	#header .header-nav-main nav > ul > li.dropdown .dropdown-menu li.dropdown-submenu > a:after {
@@ -4495,11 +4498,11 @@ html .slider-container .tp-caption-overlay-opacity-light {
 }
 
 #footer .footer-ribbon {
-	background: #0088cc;
+	background: #ff8b00;
 }
 
 #footer .footer-ribbon:before {
-	border-right-color: #005580;
+	border-right-color: #be6a02;
 	border-left-color: #005580;
 }
 

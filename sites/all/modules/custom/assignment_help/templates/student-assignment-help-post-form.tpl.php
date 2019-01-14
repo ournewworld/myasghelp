@@ -3,7 +3,7 @@
     <div class="col-md-7 col-md-offset-5  col-sm-10 col-sm-offset-1">
     <div class="form-container">
         <h1>ASSIGNMENT HELP</h1>
-        <h2>Get Assignment Help From World's No.1 Assignment Help Company</h2>
+        <h2 class="h5 text-italic text-success wow fadeInRight text-left">Get Assignment Help From World's No.1 Assignment Help Company</h2>
         <div class="row">
         <div class="col-sm-6">
             <?php print drupal_render($form['mail']); ?>
