@@ -6,47 +6,52 @@ $phone_number = theme_get_setting('phone_number');
 	ctools_include('modal');
 	ctools_modal_add_js();	
 $order_now = ctools_modal_text_button(t('Order Now'), 'assignment-help/order-now', t('Order Now'),'ctools-modal-modal-popup-small btn btn-success btn');
-
+$loging = '';
+ if($user->uid){
+   $loging = l('LOGOUT', $base_url . '/user/logout');
+ }else{
+   $loging = l('LOGIN', $base_url . '/user');
+ }
 ?>
 
  <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
  
 <header id="header" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": false, "stickyStartAt": 147, "stickySetTop": "-147px", "stickyChangeLogo": false}'>
 <div class="header-body">
-<div class="header-top">
+<!--<div class="header-top">
     <div class="container">
         <div class="dropdowns-container">
-            <?php if ($page['currency'] && module_exists('commerce_multicurrency')) : ?>
-            <?php $currency = commerce_currency_load(commerce_multicurrency_get_user_currency_code());?>
+            <?php // if ($page['currency'] && module_exists('commerce_multicurrency')) : ?>
+            <?php // $currency = commerce_currency_load(commerce_multicurrency_get_user_currency_code());?>
             <div class="header-dropdown cur-dropdown">
-                <a href="#"><?php print $currency['code']; ?> <i class="fa fa-caret-down"></i></a>
+                <a href="#"><?php // print $currency['code']; ?> <i class="fa fa-caret-down"></i></a>
 
                 <div class="header-dropdownmenu">
-                    <?php print render($page['currency']); ?>
+                    <?php // print render($page['currency']); ?>
                 </div>
             </div>
-            <?php endif;?>
-            <?php if($page['language']):?>
+            <?php // endif;?>
+            <?php // if($page['language']):?>
             <div class="header-dropdown lang-dropdown">
-                <a href="#"><img src="<?php print $base_url;?>/sites/all/modules/languageicons/flags/<?php print $language->language ?>.png" alt="English"><?php print $language->name; ?> <i class="fa fa-caret-down"></i></a>
+                <a href="#"><img src="<?php // print $base_url;?>/sites/all/modules/languageicons/flags/<?php print $language->language ?>.png" alt="English"><?php print $language->name; ?> <i class="fa fa-caret-down"></i></a>
 
                 <div class="header-dropdownmenu">
-                    <?php print render($page['language']);?>
+                    <?php // print render($page['language']);?>
                 </div>
             </div>
-            <?php endif;?>
-            <?php if(module_exists('flag')): ?>
+            <?php // endif;?>
+            <?php // if(module_exists('flag')): ?>
             <div class="compare-dropdown">
-                <a href="<?php print $base_url;?>/compare-products"><i class="fa fa-retweet"></i> <?php print t('Compare');?> </a>
+                <a href="<?php // print $base_url;?>/compare-products"><i class="fa fa-retweet"></i> <?php print t('Compare');?> </a>
             </div>
-            <?php endif;?>
+            <?php // endif;?>
         </div>
-        <?php if(isset($page['header_top'])):?>
-        <?php print render($page['header_top']);?>
-        <?php endif;?>
+        <?php // if(isset($page['header_top'])):?>
+        <?php // print render($page['header_top']);?>
+        <?php // endif;?>
 
     </div>
-</div>
+</div>-->
 <div class="header-container container">
     <div class="header-row">
         <?php if ($logo): ?>
@@ -74,7 +79,9 @@ $order_now = ctools_modal_text_button(t('Order Now'), 'assignment-help/order-now
                         <span class="split"></span>
                         <a href="<?php print $base_url.'/'.$contact_link;?>"><?php print $contact;?></a>
                         <?php endif;?>
-                    </div>
+                   <span class="split"></span>
+                        <span><?php print $loging;?></span>
+                     </div>
                     <?php // if($page['header_cart']):
 //                        $quantity = 0;
 //						$order = commerce_cart_order_load($user->uid);

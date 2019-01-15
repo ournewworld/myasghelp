@@ -1,4 +1,5 @@
-<?php $bread = theme_get_setting('breadcrumbs');?>
+<?php $bread = theme_get_setting('breadcrumbs');
+global $base_url;?>
 <div class="body">
 <?php include_once('includes/header.inc');?>
 
@@ -232,7 +233,7 @@
             <div class="row">
 
                 <div class="col-lg-4 nobottommargin center bounceIn animated" data-animate="bounceIn">
-                    <i class="i-plain i-xlarge divcenter nobottommargin"><img src="http://localhost/myasghelp/sites/all/themes/Porto/img/delivered-icon.png" alt="delivered"></i>
+                    <i class="i-plain i-xlarge divcenter nobottommargin"><img src= <?php echo "$base_url" .'/sites/all/themes/Porto/img/delivered-icon.png' ?> alt="delivered"></i>
                     <div class="counter counter-lined"><span data-from="100" data-to="846"
                             data-refresh-interval="50" data-speed="2000">846</span>K+</div>
                     <h5>DELIVERED ORDERS</h5>
@@ -240,7 +241,7 @@
 
                 <div class="col-lg-4 nobottommargin center bounceIn animated" data-animate="bounceIn"
                     data-delay="200">
-                    <i class="i-plain i-xlarge divcenter nobottommargin"><img src="http://localhost/myasghelp/sites/all/themes/Porto/img/experts.png" alt="ratings"></i>
+                    <i class="i-plain i-xlarge divcenter nobottommargin"><img src= <?php echo "$base_url" .'/sites/all/themes/Porto/img/experts.png' ?> alt="ratings"></i>
                     <div class="counter counter-lined"><span data-from="3000" data-to="15360"
                             data-refresh-interval="100" data-speed="2500">15360</span>+</div>
                     <h5>EXPERTS</h5>
@@ -248,7 +249,7 @@
 
                 <div class="col-lg-4 nobottommargin center bounceIn animated" data-animate="bounceIn"
                     data-delay="400">
-                    <i class="i-plain i-xlarge divcenter nobottommargin"><img src="http://localhost/myasghelp/sites/all/themes/Porto/img/client-ratings.png" alt="ratings"></i>
+                    <i class="i-plain i-xlarge divcenter nobottommargin"><img src= <?php echo "$base_url" .'/sites/all/themes/Porto/img/client-ratings.png' ?> alt="ratings"></i>
                     <div class="counter counter-lined"><span data-from="10" data-to="386" data-refresh-interval="25"
                             data-speed="3500">386</span>*</div>
                     <h5>CLIENT RATING</h5>
@@ -279,7 +280,7 @@
         <div class="row">
             <div class="col-lg-5  nobottommargin">
                 <a href="#">
-                    <img src="http://localhost/myasghelp/sites/all/themes/Porto/img/about.jpg" alt="Image">
+                    <img src=<?php echo "$base_url" .'/sites/all/themes/Porto/img/about.jpg' ?> alt="Image">
                 </a>
             </div>
             <div class="col-lg-7  nobottommargin col_last">
