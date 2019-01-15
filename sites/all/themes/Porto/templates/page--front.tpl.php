@@ -117,7 +117,7 @@ global $base_url;?>
     <div class="container clearfix">
         <div class="row">
             <div class="divcenter center clearfix mt-5">
-                <h2 class="mb-0">HOW ASSIGNMENT HELP WORKS</h2>
+                <h2 class="mb-0">HOW ANY ASSIGNMENT HELP WORKS</h2>
             </div>
 
             <div class="line"></div>
@@ -128,9 +128,9 @@ global $base_url;?>
                         <a href="#"><i class="fa fa-database"></i></a>
                     </div>
                     <h3>SUBMIT YOUR ASSIGNMENT</h3>
-                    <p>Simply visit AnyAssignmenthelp.com and fill up the assignment submission form. Mention
-                        the assignment requirements and upload the files. You can immediately chat with 24 x 7
-                        assignment expert and get the best price.</p>
+                    <p>Fill the form, add your credentials, attach the docs and submit your
+                        requirements, so, our team can look into it. Get an instant response 
+                        from our expert along with the right quote!</p>
                 </div>
             </div>
 
@@ -140,10 +140,9 @@ global $base_url;?>
                         <a href="#"><i class="fa fa-cc-mastercard"></i></a>
                     </div>
                     <h3>PAY FOR ASSIGNMENT</h3>
-                    <p>Once you receive best price for your assignment, process the payment through-
-                        paypal,credit card, debit card or online banking.
-
-                        BUY ASSIGNMENT HELP ONLINE AND GET A DISCOUNT UPTO 30% OFF!</p>
+                    <p>When you’re satisfied with our quoted price, proceed to the payment procedure 
+                        using one of the given payment methods: PayPal, Mastercard, or Visa Card, or Online Banking.
+It’s confidential    and safe.</p>
                 </div>
             </div>
 
@@ -153,8 +152,8 @@ global $base_url;?>
                         <a href="#"><i class="fa fa-envelope-open"></i></a>
                     </div>
                     <h3>GET ASSIGNMENT SOLUTION</h3>
-                    <p>Your high quality and well referenced assignment will be delivered straight in your
-                        AnyAssignmenthelp.com’s student account, long before the agreed deadline.</p>
+                    <p>You’ll receive the 100% original final assignment delivered within the given deadline 
+                        directly into your account's inbox along with Plagiarism report!</p>
                 </div>
             </div>
 
@@ -180,8 +179,9 @@ global $base_url;?>
                 <div>
                     <i class="fa fa-file-text"></i>
                     <h3 class="uppercase" style="font-weight: 600;">ONLINE ASSIGNMENT HELP</h3>
-                    <p style="line-height: 1.8;">AnyAssignmenthelp.com is a one-stop solution for all urgent
-                        assignment help needs.</p>
+                    <p style="line-height: 1.8;">Any Assignment Help is a reputed and trusted Homework and Assignment writing 
+                        service providers for students throughout the world. We deal with assignment writing services 
+                        from K2 to Ph.D. level students.Our team of professionals incorporates highly skilled Lecturers.</p>
                     <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read
                         More</a>
                 </div>
@@ -191,9 +191,10 @@ global $base_url;?>
                 <div>
                     <i class="fa fa-pencil"></i>
                     <h3 class="uppercase" style="font-weight: 600;">CUSTOM ESSAY WRITING HELP</h3>
-                    <p style="line-height: 1.8;">As an essay help service provider, AnyAssignmenthelp.com not
-                        only aids students to achieve academic excellence by providing custom writing help but
-                        also acquire useful knowledge from the subject experts. </p>
+                    <p style="line-height: 1.8;">Our custom essay writing service will offer an essay 
+                        that satisfies your needs. Through consistent interaction with the designated 
+                        writer, your personality will be featured in your custom essay content.Our administrations keep the details provided by you to their earnest considerations.
+                        </p>
                     <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read
                         More</a>
                 </div>
@@ -203,8 +204,10 @@ global $base_url;?>
                 <div>
                     <i class="fa fa-book"></i>
                     <h3 class="uppercase" style="font-weight: 600;">Dissertation Writing Help</h3>
-                    <p style="line-height: 1.8;">Experts, at AnyAssignmenthelp.com, are capable of delivering
-                        dissertations utilizing both primary and secondary research.</p>
+                    <p style="line-height: 1.8;">Dissertation and thesis are the toughest of the university tasks
+                        as well as a critical phase in the student's life to excel. Thus, Any Assignment Help assigns 
+                        your research paper only to those experts who are certified by the leading universities 
+                        and foundations.</p>
                     <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read
                         More</a>
                 </div>
@@ -214,9 +217,9 @@ global $base_url;?>
                 <div>
                     <i class="fa fa-cogs"></i>
                     <h3 class="uppercase" style="font-weight: 600;">All Writing Services</h3>
-                    <p style="line-height: 1.8;">We at AnyAssignmenthelp offer all types of online academic
-                        services, be it homework help, coursework help, case study help, thesis/research paper
-                        writing help and online exam help.</p>
+                    <p style="line-height: 1.8;">When you seek assistance from Any Assignment Help, you get your essays written solely from the
+                        writers who belong to your discipline and are experienced. The composition will be absolutely
+                        unique along with the clearly given reference and citation.</p>
                     <a href="#" class="button button-border button-light button-rounded uppercase nomargin">Read
                         More</a>
                 </div>
@@ -258,15 +261,15 @@ global $base_url;?>
                 <div class="col-lg-12 heading-block center">
                     <h2>Hire AnyAssignmenthelp.Com's Expert Assignment <br /> Writer And See The Difference In
                         Your Grade</h2>
-                    <div class="divcenter">AnyAssignmenthelp.com being one of the most active assignment help
-                        websites has a pool of over 4500+ assignment experts from Australia, UK and US.<br />They
-                        are highly qualified and skilled professional writers who have vast experience in
-                        writing assignments, dissertations, essays, research papers, term papers etc. Each
-                        expert is chosen after rigorous testing and has to prove his academic credentials.</div>
+                    <div class="divcenter">Our organization is willing to assist you with writing academic assignments, 
+                        dissertations, research, papers, essays, etc. of any difficulty level. Our team includes
+                        professionals from the top universities and institutions of US, UK, and Australia which are
+                        chosen only after the precise testing and checking of their credential. We aim to serve students 
+                        with professionally written content, so they achieve improved academic performance.</div>
                 </div>
 
                 <div class="col-lg-12 text-center mb-5">
-                    <a href="#" class="button button-3d button-large">Hire Expert</a>
+                    <a href="#" class="button button-3d button-large">GET ASSISTANCE NOW</a>
                 </div>
 
                 <div class="clear"></div>
@@ -284,21 +287,26 @@ global $base_url;?>
                 </a>
             </div>
             <div class="col-lg-7  nobottommargin col_last">
-                <h2 class="text-left">WHY AnyAssignmenthelp.COM?</h2>
+                <h2 class="text-left">WHY ANYASSIGNMENTHELP.COM?</h2>
 
-                <p class="pb-0">AnyAssignmenthelp.com is well aware of the concerns that students are normally plagued with
-                    when it comes to preparing their academic paper. Our assignment experts know that you
-                    encounter that lingering sense of fear when it comes to preparing your assignments. No
-                    matter how hard you try to enjoy the company of your loved ones, the dread of the impending
-                    deadline always plays at the back of your mind. You can hardly shake off this feeling. So
-                    how can you cope with it? It’s simple; you can seek the help of our experts who understand
-                    your problems and this actually drives them to produce the best; the most authentic and
-                    genuine content for your assignments.<br /><br />
-                    Also, our assignment writers across the globe are well trained in their chosen field of
-                    study which means you can easily put your faith in the way they treat your paper, no matter
-                    which academic discipline you're from.
-
-
+                <p class="pb-0">Any assignmenthelp is a pioneer in offering online assignment help 
+                    services to students of all segments. We have a team of professional writers,
+                    who are from diverse educational backgrounds, providing help on a vast range 
+                    of writing services. Our professionals are thoroughly aware of the obligations
+                    of different colleges and universities to offer you the best. Getting assignment
+                    guidance from a pool of our world’s top assignment masters is the best decision
+                    you could ever make. They do impeccable formatting and referencing to curate 
+                    100% original content which will result in the high-quality assignment so that 
+                    you score good grades.<br /><br />
+                   We also adhere to the rule that students do not miss the assignment submission
+                   deadlines. Further, we strictly follow the NO Plagiarism rule. These are the 
+                   reasons why any assignment help is considered to be the companion for online assignment
+                   help seekers irrespective of the subject and field.<br /><br />
+                   So, if you are having difficulty in the writing the unique content or are
+                   running out of time, look nowhere! Choose us to get on-time and reliable 
+                   writing help. You can reach our 24/7 support team that will connect you with
+                   the relevant writing professional. We are always there to assist you for your 
+                   assignment needs!
 
             </div>
         </div>
@@ -307,7 +315,7 @@ global $base_url;?>
     <div class="grey-back pt-5 pb-5">
 
         <div class="container ">
-            <h2 class="text-center">ASSIGNMENT HELP FEATURES</h2>
+            <h2 class="text-center">ANY ASSIGNMENT HELP FEATURES</h2>
             <div class="row">
 
                 <div class="col-lg-6">
@@ -316,10 +324,11 @@ global $base_url;?>
                             <a href="#"><i class="fa fa-clock-o"></i></a>
                         </div>
                         <h3>On Time Delivery</h3>
-                        <p>Being the best professional writing services provider, we never compromise when it
-                            comes to deadline and delivery of assignment on time. Our writers make sure that
-                            all orders are submitted prior to the deadline so that you can proofread your paper
-                            before handing it over to your tutor.</p>
+                        <p>With us, you'll never miss your deadline again! Get our writing services to 
+                            receive your assignments much before your time of submission. 
+                            It’ll help you to check if the assignment meets your prerequisites. 
+                            Our proficient writers are dedicated to timely delivery as we know how crucial 
+                            it’s for you.</p>
                     </div>
                 </div>
 
@@ -329,9 +338,9 @@ global $base_url;?>
                             <a href="#"><i class="fa fa-headphones"></i></a>
                         </div>
                         <h3>24 X 7 Live Help</h3>
-                        <p>We work 24x7 for your convenience. Our customer support executives are available
-                            round the clock in case you need any professional assistance. Feel free to contact
-                            our assignment writing services any time via phone, email or live chat.</p>
+                        <p>We’re always here to help you out! You can connect with us through phone, 
+                            mail or live chat to get your queries solved instantly. Our customer 
+                            care staff is 24/7 available for your convenience.</p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -343,12 +352,13 @@ global $base_url;?>
                             <a href="#"><i class="fa fa-book"></i></a>
                         </div>
                         <h3>Services For All Subjects</h3>
-                        <p>It does not matter whether you are a freshman in college or finishing your final
-                            assignment to acquire Ph.D. degree, our writers can provide you professional
-                            writing assistance on any subject at any level. We have experts for Law, Nursing,
-                            Management, Accounting, Marketing, Engineering, Programming etc. Thus, the next
-                            time you would type “where can I have a comprehensive assignment help for me?” feel
-                            free to visit us for the best result.</p>
+                        <p>Our services for assignment, essay, and research paper writing range 
+                            from Nursing to Management, Statistics to Law, Engineering, and much more.
+                            We ensure that all the essays or research papers for any subject domain 
+                            are written as per the precise academic criteria that satisfy your 
+                            college's demands.Whatever you need, we got you covered. 
+                            When you get help from our premium writing administration, 
+                            you no longer need to stress on poor-quality assignment submission.</p>
                     </div>
                 </div>
 
@@ -360,9 +370,12 @@ global $base_url;?>
                             <a href="#"><i class="fa fa-users"></i></a>
                         </div>
                         <h3>4500+ PhD Experts</h3>
-                        <p>Knowledge, experience and creativity are three features we consider before hiring a writer. All our professional writers have acquired Ph.D. credentials from reputed universities across the world. We have writers for each and every subject and always increasing the team by hiring the best writers. Thus, if you ever need university assignment help, always get in touch with us.
-
-                            </p>
+                        <p> Any Assignment help owns a qualified crew of experienced writers and Ph.D. 
+                            level industry pros who are able of producing the best academic content
+                            and authentic coursework assistance with revised results assurance.
+                            Be it any difficulty level or a specific subject domain, our skilled
+                            writers and editors both offer the absolute best solution for all of 
+                            your problems regarding academic writing. </p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -375,10 +388,9 @@ global $base_url;?>
                             <a href="#"><i class="fa fa-list-alt"></i></a>
                         </div>
                         <h3>Plagiarism Free Work</h3>
-                        <p>To avoid any plagiarism, we check our completed papers three times — after writing,
-                            editing and proofreading — using reliable plagiarism detection software,
-                            Turnitin.com. We have strict policies against plagiarism. We only provide
-                            customized 100 percent original papers.</p>
+                        <p>Plagiarism is entirely restrained within our company’s boundaries. 
+                         Every piece of work goes through rigorous Proofreading Process and Quality Assurance by professional 
+                         editors before submitting it to students to secure the reliability of our clients.</p>
                     </div>
                 </div>
 
@@ -388,16 +400,17 @@ global $base_url;?>
                             <a href="#"><i class="fa fa-dollar"></i></a>
                         </div>
                         <h3>Best Price Guarantee</h3>
-                        <p>You get premium service at the best market price. Our best price guarantee ensures
-                            that the features we offer cannot be matched by any of the competitors, in case
-                            they do - “We will beat the price”. Thus, for an effective and cheap assignment
-                            help, always count on us.</p>
+                        <p>Did you ever wonder if it’s feasible to get a high-grade assignment
+                            writing help in the affordable price range? Assignmenthelp gives you 
+                            that surety that too without compromising on the quality of assignments.
+                            We have an unbeatable price that you will not find anywhere else in the
+                            online industry.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-12 text-center mt-4 mb-5">
+<!--                <div class="col-lg-12 text-center mt-4 mb-5">
                     <a href="#" class="button button-3d button-large">View All</a>
-                </div>
+                </div>-->
 
             </div>
 
