@@ -261,6 +261,14 @@ h2 {
   font-size: 30px !important;
 }
 
+
+
+@media only screen and ( min-width: 300px ) and ( max-width: 480px ){
+  h2{
+    font-size: 19px;
+  }
+}
+
 h3 {
   font-size: 20px;
 }
@@ -5363,9 +5371,7 @@ body:not(.device-touch) .button.button-full strong {
   padding: 0 0 0 80px;
 }
 
-.feature-box:first-child {
-  margin-top: 0;
-}
+
 
 .feature-box .fbox-icon {
   display: block;
@@ -13188,3 +13194,7 @@ form label {
   right: 40px;
   top: 31px;
 }
+
+
+
+
