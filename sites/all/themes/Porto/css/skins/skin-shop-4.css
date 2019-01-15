@@ -374,8 +374,14 @@ html .label-light {
 
 html .btn-primary {
 	color: #ffffff;
-    background-color: #ff8b00;
-	border-color: #ffac4a;
+    border-radius: 3px;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    background-image: -webkit-linear-gradient(top, #2e990d 0%, #1d6108 100%);
+    background-image: -o-linear-gradient(top, #2e990d 0%, #1d6108 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2e990d), to(#1d6108));
+    background-image: linear-gradient(to bottom, #2e990d 0%, #1d6108 100%);
 	margin-right: 5px;
 }
 
@@ -390,8 +396,8 @@ html .btn-primary:active,
 html .btn-primary:focus,
 html .btn-primary:active:hover,
 html .btn-primary:active:focus {
-	border-color: #0077b3 #0077b3 #0077b3;
-	background-color: #0077b3;
+	border-color: #1b6804;
+    background-color: #2e990d;
 }
 
 html .btn-primary.dropdown-toggle {
@@ -4498,11 +4504,14 @@ html .slider-container .tp-caption-overlay-opacity-light {
 }
 
 #footer .footer-ribbon {
-	background: #ff8b00;
+	background-image: -webkit-linear-gradient(top, #2e990d 0%, #1d6108 100%);
+    background-image: -o-linear-gradient(top, #2e990d 0%, #1d6108 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2e990d), to(#1d6108));
+    background-image: linear-gradient(to bottom, #2e990d 0%, #1d6108 100%);
 }
 
 #footer .footer-ribbon:before {
-	border-right-color: #be6a02;
+	border-right-color: #1b5700;
 	border-left-color: #005580;
 }
 

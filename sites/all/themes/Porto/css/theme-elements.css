@@ -576,9 +576,10 @@ html.boxed .nav-secondary.sticky-active {
 }
 
 .btn-success {
-	border-color: #47a447;
-	background-color: #47a447;
-	border-color: #47a447 #47a447 #388038;
+	background-image: -webkit-linear-gradient(top, #2e990d 0%, #1d6108 100%);
+    background-image: -o-linear-gradient(top, #2e990d 0%, #1d6108 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2e990d), to(#1d6108));
+    background-image: linear-gradient(to bottom, #2e990d 0%, #1d6108 100%);
 	color: #FFF;
 }
 

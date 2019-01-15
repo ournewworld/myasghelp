@@ -348,3 +348,34 @@ div.ctools-modal-content .resizable-textarea .form-textarea{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     outline: none;
 }
+
+#edit-mail--2 {
+  background-image: url(../../misc/mail.png);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  background-size: 17px;
+  background-position: 5px 53%;
+}
+
+#edit-subject{
+  background-image: url(../../misc/file.png);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  background-size: 17px;
+  background-position: 5px 53%;
+}
+
+#edit-date-datepicker-popup-0{
+  background-image: url(../../misc/calendar.png);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  background-size: 17px;
+  background-position: 5px 53%;
+}
+#edit-date-timeEntry-popup-1{
+  background-image: url(../../misc/time.png);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  background-size: 17px;
+  background-position: 5px 53%;
+}

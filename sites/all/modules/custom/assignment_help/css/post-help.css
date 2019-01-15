@@ -4264,7 +4264,8 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
   font-size: 14px;
   height: 40px;
   line-height: 40px;
-  background-color: #ff8b00;
+  background-color: #2e990d;
+  
   color: #FFF;
   font-weight: 700;
   text-transform: uppercase;
@@ -4488,10 +4489,14 @@ body:not(.device-touch) .button {
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+  background-image: -webkit-linear-gradient(top, #2e990d 0%, #1d6108 100%);
+    background-image: -o-linear-gradient(top, #2e990d 0%, #1d6108 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2e990d), to(#1d6108));
+    background-image: linear-gradient(to bottom, #2e990d 0%, #1d6108 100%);
 }
 
 .button.button-3d:hover {
-  background-color: #e77e00 !important;
+  background-color: #0c6805 !important;
   opacity: 0.9;
 }
 
@@ -10218,7 +10223,7 @@ input[type=checkbox]:not(:checked)+label.error {
 
 h2.text-left:after {
   content: '';
-  display: block;
+  display: none;
   margin-top: 30px;
   width: 40px;
   border-top: 2px solid #ff8b00;
@@ -13174,4 +13179,12 @@ li {
 
 form label {
   font-size: 12px !important;
+}
+
+.form-item-no-of-pages .input-group{ width: 175px;}
+
+.noPages .words {
+  position: absolute;
+  right: 40px;
+  top: 31px;
 }

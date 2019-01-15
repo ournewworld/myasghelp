@@ -13,7 +13,7 @@
         </div>
         <div class="clearfix"></div>
         <div class="col-sm-6 noPages">
-            <?php print drupal_render($form['no_of_pages']); ?>
+            <?php print drupal_render($form['no_of_pages']); ?><span class="words"><strong>250</strong> Words</span>
         </div>
         <div class="col-sm-6">
             <?php print drupal_render($form['date']); ?>
