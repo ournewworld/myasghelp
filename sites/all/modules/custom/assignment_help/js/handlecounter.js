@@ -44,7 +44,8 @@
 				if (isNaN(n) || (min && n < min) || (max && n > max)) {
 					return false;
 				}
-
+                                var words = 250*n;
+                                $(".words").find('strong').text(words);
 				clone.focus().val(n);
 				clone.trigger('change');
 				return true;

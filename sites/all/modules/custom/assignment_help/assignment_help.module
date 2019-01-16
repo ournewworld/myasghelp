@@ -20,13 +20,13 @@ function student_assignment_help_post_form($form,$form_state)
 {
   $form['mail'] = array(
     '#type' => 'textfield',
-    '#title' => t('Email'),
-    '#attributes' => array('placeholder' => 'Email')
+    '#title' => t('Enter Youe Email Id'),
+    '#attributes' => array('placeholder' => 'Enter Email')
   );
 
   $form['subject'] = array(
     '#type' => 'textfield',
-    '#title' => t('Enter Subject'),
+    '#title' => t('Enter Your Subject'),
     '#attributes' => array('placeholder' => 'Enter Subject'),
   );
 
