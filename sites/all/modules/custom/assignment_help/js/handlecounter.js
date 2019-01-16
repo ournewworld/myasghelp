@@ -29,7 +29,7 @@
 			downClass: 'default',
 			upText: '+',
 			downText: '-',
-			center: true
+			center: true,
 			}, options );
 
 		return this.each(function(e) {
@@ -44,6 +44,8 @@
 				if (isNaN(n) || (min && n < min) || (max && n > max)) {
 					return false;
 				}
+                                
+                                n = (n<1) ? 1 : n;
                                 var words = 250*n;
                                 $(".words").find('strong').text(words);
 				clone.focus().val(n);
