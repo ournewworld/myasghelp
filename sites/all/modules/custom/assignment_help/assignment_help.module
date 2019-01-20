@@ -59,6 +59,18 @@ function student_assignment_help_post_form($form,$form_state)
   return $form;
 }
 
+function student_assignment_help_post_form_submit($form, $form_state) {
+  $values = $form_state['values'];
+  $to = 'contact@anyassignmenthelp.com';
+  $from = $values['mail'];
+
+  // Get the to and from e-mail addresses.
+  $values['message'] = "Need Help In : ".$values['Subject'] . " having ". $values['no_of_pages'] ." pages before " . $values['date'];
+
+  drupal_mail('assignment_help', 'free_assistace', $to, language_default(), $values, $from);
+  drupal_goto($path);
+}
+
 /**
  * Implements hook_theme().
  */

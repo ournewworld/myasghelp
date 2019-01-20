@@ -11,7 +11,7 @@ function assignment_help_order_now()
 	$form_state['nid'] = $id;
 	$form_state['type'] = $type;
 	
-	$commands = ctools_modal_form_wrapper('award_express_interest_form', $form_state);
+	$commands = ctools_modal_form_wrapper('assignment_help_order_now_form', $form_state);
 
 	return array(
 		'#type' => 'ajax',
@@ -19,7 +19,7 @@ function assignment_help_order_now()
 	);
 }
 
-function award_express_interest_form($form,$form_state)
+function assignment_help_order_now_form($form,$form_state)
 {
 	global $user;
 
@@ -81,11 +81,19 @@ There is no scheduled class for a class in this Package. If you are interested i
 		'#attributes' => array('placeholder' => 'Brief description regarding your subject...'),
 	);
   
+//   $form['file'] = array(
+//        '#type' => 'file',
+//        '#title' => t('Choose a file'),
+//    );
+   
    $form['file'] = array(
-        '#type' => 'file',
-        '#title' => t('Choose a file'),
-    );
-  
+		'#type' => 'managed_file',
+		'#title' => t('Attach File'),
+		'#default_value' => variable_get('attach_file', ''),
+//		'#upload_location' => 'public://rate_logo/',
+		
+	);
+   
 	$options_reference = array("Reference Style", "Harvard", "APA", "MLA", "Chicago", "Oxford", "Turbanian", "AGLC", "Other");
 
 	$form['refrence_style'] = array(
@@ -110,113 +118,54 @@ There is no scheduled class for a class in this Package. If you are interested i
 		'#value' => t('Cancel'),
 	);
 	
-	$form['#validate'][] = 'award_express_interest_form_validate';
-	$form['submit']['#ajax'] = array('callback' => 'award_express_interest_course_submit','wrapper' => 'request-approved-form-wrapper');
-	$form['cancel']['#ajax'] = array('callback' => 'award_express_interest_form_cancel');
+	$form['#validate'][] = 'assignment_help_order_now_form_validate';
+	$form['submit']['#ajax'] = array('callback' => 'assignment_help_order_now_submit','wrapper' => 'request-approved-form-wrapper');
+	$form['cancel']['#ajax'] = array('callback' => 'assignment_help_order_now_form_cancel');
 
 	$form['#suffix'] = '</div>';
 
 	return $form;
 }
 
-function award_express_interest_form_validate($form,$form_state)
+function assignment_help_order_now_form_validate($form,$form_state)
 {
 	$values = (object)$form_state['values'];
 	
-	if ( !valid_email_address($values->mail)) {
-		form_set_error('mail','Please provide valid email address.');
-	}
-
-	$request = Doctrine_Core::getTable('DrupalAwardExporessInterest')->findOneByMailAndNidAndType($values->mail,$form_state['nid'],$form_state['type']);
-
-	if ($request) {
-		form_set_error('','We have already recevied your request for your interest.');
-	}
+//	if ( !valid_email_address($values->mail)) {
+//		form_set_error('mail','Please provide valid email address.');
+//	}
+//
+//	if ($request) {
+//		form_set_error('','We have already recevied your request for your interest.');
+//	}
 }
 
-function award_express_interest_course_submit($form,$form_state)
+function assignment_help_order_now_submit($form,$form_state)
 {
-	global $user;
+global $user;
 
-	ctools_include('modal');
-    ctools_include('ajax');
-	
-	if (form_get_errors()) return $form;
-	
-	$values = (object)$form_state['values'];
-	
-	$request = Doctrine_Core::getTable('DrupalAwardExporessInterest')->findOneByMailAndNidAndType($values->mail,$form_state['nid'],$form_state['type']);
+ctools_include('modal');
+ctools_include('ajax');
 
-	if (!$request) { 
+$values = $form_state['values'];
+$to = 'contact@anyassignmenthelp.com';
+$from = $values['mail'];
 
-		$i = new DrupalAwardExporessInterest();
-		$i->type = $form_state['type'];
-		$i->nid = $form_state['nid'];
-		$i->mail = $values->mail;
-		$i->first_name = $values->first_name;
-		$i->last_name = $values->last_name;
-		$i->company = $values->company;
-		$i->phone_number = $values->phone_number;
-		$i->comment = $values->comments;
-		$i->city= $values->city;
-		$i->state = $values->state;
-		
-		if (!empty($values->country)) {
-			$i->country = $values->country;
-		}
+// Get the to and from e-mail addresses.
+$values['message'] = "Need Help In : ".$values['Subject'] . " having ". $values['no_of_pages'] ." pages before " . $values['date'];
 
-		$i->timestamp = time();
-		$i->save();
-		
-		$params['!mail'] = $values->mail;
-		$params['!author_first_name'] = $values->first_name;
-		$params['!author_last_name'] = $values->last_name;
-		
-		$options =  _addressfield_country_options_list();
+drupal_mail('assignment_help', 'order_now', $to, language_default(), $params);
 
-		$params['!company'] = $values->company;
-		$params['!phone_number'] = $values->phone_number;
-		$params['!country'] = isset($options[$values->country]) ? $options[$values->country] : '';
-		$params['!state'] = $values->state;
-		$params['!city'] = $values->city;
-		$params['!date'] = format_date($i->timestamp,'custom','d M, Y','America/Chicago');
-		$params['!comments'] = $values->comments;
+drupal_set_message(t("Thank you for submitting your order will get back to you shortly."));
 
-		if ($form_state['type'] == 'bundle') {
-			$bundle = commerce_product_load($i->nid);
-			$params['!course'] = $bundle->title;
-			$params['!type'] = "Package";
-		} else {
-			$course = node_load($i->nid);
-			$params['!course'] = $course->title;
-			$params['!type'] = "Unscheduled ILT Course";
-		}
-		
-		// Send to all public training admins
-		$emails = award_get_all_public_training_admin_emails();
+//$commands[] = ctools_modal_command_display("Successfull", theme('status_messages'));
 
-		foreach ($emails as $mail) {
-			drupal_mail('award_migration', 'express_interest', $mail, language_default(), $params);
-		}
-		
-		// Send to all sales person
-		$emails = award_get_all_sales_person_emails();
-		
-		foreach ($emails as $mail) {
-			drupal_mail('award_migration', 'express_interest', $mail, language_default(), $params);
-		}
+$commands[] = ctools_ajax_command_reload();
 
-		drupal_set_message(t("Thank you for submitting your request."));
-
-		//$commands[] = ctools_modal_command_display("Successfull", theme('status_messages'));
-	}
-
-	$commands[] = ctools_ajax_command_reload();
-
-	return array('#type' => 'ajax', '#commands' => $commands);	
+return array('#type' => 'ajax', '#commands' => $commands);	
 }
 
-function award_express_interest_form_cancel($form,$form_state)
+function assignment_help_order_now_form_cancel($form,$form_state)
 {
 	ctools_include('modal');
 	$commands[] = ctools_modal_command_dismiss();
