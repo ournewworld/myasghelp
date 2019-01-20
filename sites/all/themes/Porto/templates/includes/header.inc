@@ -68,8 +68,11 @@ $loging = '';
             <div class="row">
                 <div class="cart-area">
                     <div class="custom-block">
-                        <span><?php print $order_now;?></span>
-                         <span class="split"></span>
+                       
+                        <div class="topLog">
+                        <?php print $order_now;?>
+                        <span class="contSec">
+                        <span class="split"></span>
                         <?php if(isset($phone_number)):?>
                         <i class="fa fa-phone"></i>
                         
@@ -79,8 +82,10 @@ $loging = '';
                         <span class="split"></span>
                         <a href="<?php print $base_url.'/'.$contact_link;?>"><?php print $contact;?></a>
                         <?php endif;?>
-                   <span class="split"></span>
+                        <span class="split"></span>
                         <span><?php print $loging;?></span>
+                        </div>
+                        </div>
                      </div>
                     <?php // if($page['header_cart']):
 //                        $quantity = 0;

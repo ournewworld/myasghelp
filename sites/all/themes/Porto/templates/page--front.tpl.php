@@ -175,7 +175,7 @@ It’s confidential    and safe.</p>
                 <h2 class="mt-5">HOW ASSIGNMENT HELP WORKS</h2>
             </div>
             <div class="clear"></div>
-            <div class="col-lg-3 dark col-padding ohidden" style="background-color: rgb(26, 188, 156); height: 355.2px;">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xl-12 dark col-padding ohidden" style="background-color: rgb(26, 188, 156);">
                 <div>
                     <i class="fa fa-file-text"></i>
                     <h3 class="uppercase" style="font-weight: 600;">ONLINE ASSIGNMENT HELP</h3>
@@ -187,7 +187,7 @@ It’s confidential    and safe.</p>
                 </div>
             </div>
 
-            <div class="col-lg-3 dark col-padding ohidden" style="background-color: rgb(52, 73, 94); height: 355.2px;">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xl-12 dark col-padding ohidden" style="background-color: rgb(52, 73, 94);">
                 <div>
                     <i class="fa fa-pencil"></i>
                     <h3 class="uppercase" style="font-weight: 600;">CUSTOM ESSAY WRITING HELP</h3>
@@ -200,7 +200,7 @@ It’s confidential    and safe.</p>
                 </div>
             </div>
 
-            <div class="col-lg-3 dark col-padding ohidden" style="background-color: rgb(231, 76, 60); height: 355.2px;">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xl-12 dark col-padding ohidden" style="background-color: rgb(231, 76, 60);">
                 <div>
                     <i class="fa fa-book"></i>
                     <h3 class="uppercase" style="font-weight: 600;">Dissertation Writing Help</h3>
@@ -213,7 +213,7 @@ It’s confidential    and safe.</p>
                 </div>
             </div>
 
-            <div class="col-lg-3 dark col-padding ohidden" style="background-color: #66bb6a; height: 355.2px;">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xl-12 dark col-padding ohidden" style="background-color: #66bb6a;">
                 <div>
                     <i class="fa fa-cogs"></i>
                     <h3 class="uppercase" style="font-weight: 600;">All Writing Services</h3>
