@@ -14,7 +14,7 @@ global $base_url;?>
 
 <div role="main" class="main">
 <?php if($title && $breadcrumb && $bread == 1 && !drupal_is_front_page()): ?>
-    <section class="page-header mb-lg">
+    <section class="page-header mb-lg breadCrumb">
         <div class="container">
             <?php print $breadcrumb;?>
         </div>
@@ -425,7 +425,142 @@ It’s confidential    and safe.</p>
 </div>
 
 <?php if(!drupal_is_front_page()): ?>
-                        <p>you can write your html for inner content here</p>
+<div class="content-wrap1">
+    <div class="container">
+        <div class="row">
+            <div class="cil-xl-4 col-lg-4 col-md-5 col-sm-12">
+                <div class="row">  
+                    <div class="b-g-r-in bder-btm">    
+                        <div class="rateLft">
+                            <a href="#"> 
+                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro1.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                        </div>    
+                        <div class="rateRht">      
+                            <p class="mb-1">
+                                <a href="#">
+                                    <b>Howard Asuncion</b>
+                                </a><br>        
+                                <span class="clr-o">
+                                    <small>
+                                    <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
+                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
+                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    </p>     
+                                    <a href="#">
+                                            <span class="hire-but pt-1 pull-left">Hire Me</span>
+                                    </a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="row">  
+                    <div class="b-g-r-in bder-btm">    
+                        <div class="rateLft">
+                            <a href="#"> 
+                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro2.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                        </div>    
+                        <div class="rateRht">      
+                            <p class="mb-1">
+                                <a href="#">
+                                    <b>Howard Asuncion</b>
+                                </a><br>        
+                                <span class="clr-o">
+                                    <small>
+                                    <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
+                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
+                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    </p>     
+                                    <a href="#">
+                                            <span class="hire-but pt-1 pull-left">Hire Me</span>
+                                    </a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="row">  
+                    <div class="b-g-r-in bder-btm">    
+                        <div class="rateLft">
+                            <a href="#"> 
+                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro3.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                        </div>    
+                        <div class="rateRht">      
+                            <p class="mb-1">
+                                <a href="#">
+                                    <b>Howard Asuncion</b>
+                                </a><br>        
+                                <span class="clr-o">
+                                    <small>
+                                    <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
+                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
+                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    </p>     
+                                    <a href="#">
+                                            <span class="hire-but pt-1 pull-left">Hire Me</span>
+                                    </a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="row">  
+                    <div class="b-g-r-in bder-btm">    
+                        <div class="rateLft">
+                            <a href="#"> 
+                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro4.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                        </div>    
+                        <div class="rateRht">      
+                            <p class="mb-1">
+                                <a href="#">
+                                    <b>Howard Asuncion</b>
+                                </a><br>        
+                                <span class="clr-o">
+                                    <small>
+                                    <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
+                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
+                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    </p>     
+                                    <a href="#">
+                                            <span class="hire-but pt-1 pull-left">Hire Me</span>
+                                    </a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="row">  
+                    <div class="b-g-r-in bder-btm" style="margin-bottom:50px;">    
+                        <div class="rateLft">
+                            <a href="#"> 
+                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro5.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                        </div>    
+                        <div class="rateRht">      
+                            <p class="mb-1">
+                                <a href="#">
+                                    <b>Howard Asuncion</b>
+                                </a><br>        
+                                <span class="clr-o">
+                                    <small>
+                                    <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
+                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
+                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    </p>     
+                                    <a href="#">
+                                            <span class="hire-but pt-1 pull-left">Hire Me</span>
+                                    </a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="cil-xl-8 col-lg-8 col-md-7 col-sm-12">
+                <div class="col-md-12 left-page">
+                    <h2>Data Mining Assignment Help</h2>
+                    <p id="How">Data mining is an interdisciplinary sub-field of computer science that analyzes data from various perspectives and summarizes it into useful information. In other words, data mining is a powerful technology used in the extraction of hidden information from large databases. Data mining assignments give prominence to various aspects of the said discipline.</p><p>In addition, RapidMiner is the most popular and widespread open source data mining solution in world. It is a software tool applied for simple statistical evaluations such as regression, correlation analysis, clustering and classification of analytical procedures, parameter optimization and dimension reduction.</p><p>Data mining assignments are a mandatory coursework for students in UK, US and Australia. MyAssignmenthelp.com offers data mining <a href="https://myassignmenthelp.com/us/"><strong>assignments help</strong></a> online, data mining essays and data mining thesis help after conducting intricate data mining research.</p>
+                    <h2>How does Data Mining Work?</h2>
+                    <p>Data mining software analyzes the pattern of stored transaction data and evaluates the relationship between them based on the platform of open-ended user queries. Compose data mining assignments including these features. Data mining analytical software are mainly of the following types.</p>
+                    <ul>
+                        <li>Statistical</li>
+                        <li>Machine learning</li>
+                        <li>Neural network</li>
+                    </ul>
+                    <p>These three types of analytical tools are used to sought out the following relationships. Highlight the following in your data mining assignments.</p>
+            </div>
+        </div>
+    </div>
+</div>
 <?php endif;?>
 
 

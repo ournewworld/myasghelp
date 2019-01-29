@@ -707,6 +707,10 @@ span.middot {
   position: relative;
   padding: 40px 0;
 }
+.content-wrap1 {
+  position: relative;
+  padding: 80px 0 40px;
+}
 
 #content .container {
   position: relative;
@@ -13195,6 +13199,68 @@ form label {
   top: 31px;
 }
 
+.ratingImg{
+  width: 100px;
+  height: auto;
+}
+
+.rateLft{
+  float: left;
+}
+
+.rateRht{
+  float: left;
+  margin-left: 10px;
+  width: 70%;
+}
+.rateRht p{
+  margin-bottom: 0;
+}
+.rateRht p small{
+  display: block;
+  margin:5px 0;
+  font-size:100%;
+}
+.lin-ht {
+  line-height: 20px;
+}
+
+.clr-o {
+  color: #ff8b00!important;
+}
+
+.hire-but {
+  background: #ff8b00;
+  padding: 1px 16px;
+  color: #FFF;
+  margin-left: 1px;
+  font-size: 13px;
+}
+
+.bder-btm {
+  border-bottom: solid 1px #CCC;
+  padding-bottom: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.left-page ul{
+  margin: 0 0 15px;
+}
+
+.left-page ul li:before{
+  content: "";
+  border-color: transparent #5a5555;
+  border-style: solid;
+  border-width: 5px 0 4px 5px;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  left: 0;
+  top: 0;
+  position: relative;
+  margin-right: 8px;
+}
 
 
 
