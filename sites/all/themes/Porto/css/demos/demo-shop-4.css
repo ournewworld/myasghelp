@@ -5594,3 +5594,9 @@ html .scroll-to-top:focus {
 .breadCrumb{
   margin-bottom: 0px !important;
 }
+
+.orderNow{ 
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #003144 0%, #03688f 100%);
+    border-color: #03688f;
+}

@@ -70,8 +70,9 @@ $loging = '';
                     <div class="custom-block">
                        
                         <div class="topLog">
+                        <a href="#" class="ctools-use-modal ctools-modal-modal-popup-small btn btn-success btn ctools-use-modal-processed orderNow" title="Pay Us">Pay Us</a>
                         <?php print $order_now;?>
-                        <span class="contSec">
+                           <span class="contSec">
                         <span class="split"></span>
                         <?php if(isset($phone_number)):?>
                         <i class="fa fa-phone"></i>

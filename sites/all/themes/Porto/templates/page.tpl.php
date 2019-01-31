@@ -438,7 +438,7 @@ It’s confidential    and safe.</p>
                         <div class="rateRht">      
                             <p class="mb-1">
                                 <a href="#">
-                                    <b>Howard Asuncion</b>
+                                    <b>Alex Stuart</b>
                                 </a><br>        
                                 <span class="clr-o">
                                     <small>
@@ -461,7 +461,7 @@ It’s confidential    and safe.</p>
                         <div class="rateRht">      
                             <p class="mb-1">
                                 <a href="#">
-                                    <b>Howard Asuncion</b>
+                                    <b>Shawn Michel</b>
                                 </a><br>        
                                 <span class="clr-o">
                                     <small>
@@ -484,7 +484,7 @@ It’s confidential    and safe.</p>
                         <div class="rateRht">      
                             <p class="mb-1">
                                 <a href="#">
-                                    <b>Howard Asuncion</b>
+                                    <b>Michel Johnson</b>
                                 </a><br>        
                                 <span class="clr-o">
                                     <small>
@@ -507,7 +507,7 @@ It’s confidential    and safe.</p>
                         <div class="rateRht">      
                             <p class="mb-1">
                                 <a href="#">
-                                    <b>Howard Asuncion</b>
+                                    <b>Mike Jordon</b>
                                 </a><br>        
                                 <span class="clr-o">
                                     <small>
@@ -530,7 +530,7 @@ It’s confidential    and safe.</p>
                         <div class="rateRht">      
                             <p class="mb-1">
                                 <a href="#">
-                                    <b>Howard Asuncion</b>
+                                    <b>Andrew Jemes</b>
                                 </a><br>        
                                 <span class="clr-o">
                                     <small>
