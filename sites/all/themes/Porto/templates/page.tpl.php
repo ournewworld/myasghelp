@@ -433,7 +433,7 @@ It’s confidential    and safe.</p>
                     <div class="b-g-r-in bder-btm">    
                         <div class="rateLft">
                             <a href="#"> 
-                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro1.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                            <img src=<?php echo "$base_url" .'/sites/all/themes/Porto/pro1.jpg'?>  class="img-thumbnail ratingImg" alt="expert"></a> 
                         </div>    
                         <div class="rateRht">      
                             <p class="mb-1">
@@ -456,7 +456,7 @@ It’s confidential    and safe.</p>
                     <div class="b-g-r-in bder-btm">    
                         <div class="rateLft">
                             <a href="#"> 
-                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro2.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                            <img src=<?php echo "$base_url" .'/sites/all/themes/Porto/pro2.jpg'?>  class="img-thumbnail ratingImg" alt="expert"></a> 
                         </div>    
                         <div class="rateRht">      
                             <p class="mb-1">
@@ -466,8 +466,8 @@ It’s confidential    and safe.</p>
                                 <span class="clr-o">
                                     <small>
                                     <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
-                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
-                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    <p class="lin-ht mb-5"><small>MBA in Marketing</small></p>      
+                                    <p class="lin-ht"><small>691 - Completed Orders</small>
                                     </p>     
                                     <a href="#">
                                             <span class="hire-but pt-1 pull-left">Hire Me</span>
@@ -479,18 +479,18 @@ It’s confidential    and safe.</p>
                     <div class="b-g-r-in bder-btm">    
                         <div class="rateLft">
                             <a href="#"> 
-                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro3.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                            <img src=<?php echo "$base_url" .'/sites/all/themes/Porto/pro3.jpg'?>  class="img-thumbnail ratingImg" alt="expert"></a> 
                         </div>    
                         <div class="rateRht">      
                             <p class="mb-1">
                                 <a href="#">
-                                    <b>Michel Johnson</b>
+                                    <b>Daniel Hill </b>
                                 </a><br>        
                                 <span class="clr-o">
                                     <small>
                                     <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
-                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
-                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    <p class="lin-ht mb-5"><small>MPA in Accounting </small></p>      
+                                    <p class="lin-ht"><small>1429 - Completed Orders</small>
                                     </p>     
                                     <a href="#">
                                             <span class="hire-but pt-1 pull-left">Hire Me</span>
@@ -502,18 +502,18 @@ It’s confidential    and safe.</p>
                     <div class="b-g-r-in bder-btm">    
                         <div class="rateLft">
                             <a href="#"> 
-                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro4.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                            <img src=<?php echo "$base_url" .'/sites/all/themes/Porto/pro4.jpg'?>  class="img-thumbnail ratingImg" alt="expert"></a> 
                         </div>    
                         <div class="rateRht">      
                             <p class="mb-1">
                                 <a href="#">
-                                    <b>Mike Jordon</b>
+                                    <b>Frankie Wright</b>
                                 </a><br>        
                                 <span class="clr-o">
                                     <small>
                                     <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
-                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
-                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    <p class="lin-ht mb-5"><small>Masters in Management, MMgt </small></p>      
+                                    <p class="lin-ht"><small>968 - Completed Orders</small>
                                     </p>     
                                     <a href="#">
                                             <span class="hire-but pt-1 pull-left">Hire Me</span>
@@ -525,7 +525,7 @@ It’s confidential    and safe.</p>
                     <div class="b-g-r-in bder-btm" style="margin-bottom:50px;">    
                         <div class="rateLft">
                             <a href="#"> 
-                            <img src="http://localhost/myasghelp/sites/all/themes/Porto/pro5.jpg" class="img-thumbnail ratingImg" alt="expert"></a> 
+                            <img src=<?php echo "$base_url" .'/sites/all/themes/Porto/pro5.jpg'?> class="img-thumbnail ratingImg" alt="expert"></a> 
                         </div>    
                         <div class="rateRht">      
                             <p class="mb-1">
@@ -535,8 +535,8 @@ It’s confidential    and safe.</p>
                                 <span class="clr-o">
                                     <small>
                                     <i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i>&nbsp;<i class="fa fa-star"></i></small></span> </p>      
-                                    <p class="lin-ht mb-5"><small>LLM in Criminal Law </small></p>      
-                                    <p class="lin-ht"><small>453 - Completed Orders</small>
+                                    <p class="lin-ht mb-5"><small>PhD in Economics</small></p>      
+                                    <p class="lin-ht"><small>759 - Completed Orders</small>
                                     </p>     
                                     <a href="#">
                                             <span class="hire-but pt-1 pull-left">Hire Me</span>
